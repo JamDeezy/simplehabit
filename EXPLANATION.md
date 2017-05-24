@@ -184,3 +184,6 @@ end
 # I expect that there would be a significant fall off for each subsequent recommendation, kind of like a staircase
 # We can re-evaluate the weighing function by A/B testing differing coefficients and its affects on the drop off.
 ````
+
+# CHANGELOG
+I realized that users with the many of the same topic listens and users that share the same topic listen should be be independently increasing in weight. I have updated my solution to reflect this (with some tweeks in numbers).
