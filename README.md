@@ -1,3 +1,5 @@
+# Problem definition
+
 For this exercise, we want to be able to build a simple recommendation engine for
 Simple Habit meditators. To do this, we’ve included a list of all the meditations
 that have been completed by users on our site — this file is called ‘listens.json’.
@@ -51,3 +53,5 @@ given that a user just listened to X.
     other scripts you produced and send it back via email.
 - Let me know if you have any questions!
 
+# Explanation
+See [explanation](EXPLANATION.md)

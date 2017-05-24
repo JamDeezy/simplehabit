@@ -10,8 +10,8 @@ users_listened_to_topic = {
 ````
 
 # want recommendation for <subtopic>
-1) find <users> that listened to <subtopic> with `b_hash`
-2) create count of number of times <subtopics> appeared in <users> with `a_hash`
+1) find `users` that listened to `subtopic` with `users_listened_to_topic`
+2) create count of number of times `subtopics` appeared in `users` with `topics_listened_by_user`
 3) return top 4
 
 # Pseudo
@@ -45,7 +45,7 @@ results.sort_by {|k,v| v}.reverse.first(4).map{|r| r[0] }
 
 # Optimization
 ````
-# We can first backprocess the work done with `a_hash` and `b_hash`
+# We can first backprocess the work done with `topics_listened_by_user` and `users_listened_to_topic`
 c_map = {
   topic: [ top_recommended, 2nd_recommended... ]
 }
